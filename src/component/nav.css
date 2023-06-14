@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.ff-junaid{
+    font-family: 'Great Vibes';  
+}
+nav .text-gray{
+    color: rgb(120, 118, 118) !important;
+    transition: 0.4s ease-in-out;
+}
+nav .text-gray:hover{
+    transform: scale(1.1);
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
