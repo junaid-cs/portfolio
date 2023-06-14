@@ -27,7 +27,7 @@ const Nav = () => {
     ];
     const [toggler,setToggler]=useState(false);
   return (
-    <nav className="navbar navbar-expand-md bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+    <nav className="navbar position-fixed w-100 navbar-expand-md bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
   <div className="container-fluid">
     <a className="navbar-brand ff-junaid fs-2 px-3 fw-600" href="#">Junaid</a>
 

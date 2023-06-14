@@ -1,0 +1,6 @@
+.hero-h-100{
+    min-height: 100vh;
+}
+.bg-dark-b-gradient{
+    background:linear-gradient(to bottom ,#000 341px,#1f2937 );
+}
