@@ -19,6 +19,18 @@
 .bg-gray{
     background-color: rgb(93, 94, 95);
 }
+.text-gary{
+    color: rgb(107 114 128);
+}
 .w-73px{
     width: 73px;
+}
+.border-top{
+    border-top-right-radius: 6px;
+}
+.border-bottom{
+    border-bottom-right-radius: 6px;
+}
+.text-justify{
+    text-align: justify;
 }

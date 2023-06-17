@@ -4,9 +4,7 @@
 .bg-dark-b-gradient{
     background:linear-gradient(to bottom ,#000 341px,#1f2937 );
 }
-.text-gary{
-    color: rgb(107 114 128);
-}
+
 .btn-gradient{
     background: linear-gradient(to left,#3b82f6,#06b6d4);
 }
@@ -16,4 +14,11 @@
     background: linear-gradient(to left,#3b82f6,#06b6d4);
     border-radius: 28px;
     box-shadow: 11px 11px 23px -13px #06b6d4;
+}
+.btn-gradient>.hero-arrow{
+    transform: translate(0px, 0px) rotate(0deg);
+    transition: 0.5s ease-in-out;
+}
+.btn-gradient:hover>.hero-arrow{
+    transform: translate(2px, 2px) rotate(90deg);
 }
