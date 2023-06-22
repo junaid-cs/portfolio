@@ -4,6 +4,7 @@ import Hero from './component/Hero';
 import SocialMedia from './component/SocialMedia';
 import About from './component/About';
 import './App.css';
+import Project from './component/Project';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <SocialMedia />
       <About />
+      <Project />
     </div>
   );
 }
