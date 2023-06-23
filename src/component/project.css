@@ -1,4 +1,37 @@
-.card-img{
-    width: 100%;
-    min-height: 100px;
+.portfolio .card{
+    box-shadow: 5px 5px 15px #000, -5px -5px 15px #000 ;
+}
+.portfolio .card .img-container{
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    transition: 4s ease-in-out;
+}
+.portfolio .card .img-container:hover img{
+   position: absolute;
+   bottom: 0;
+   transition: 4s ease-in-out;
+   /* background-image: url('../../public/logo512.png'); */
+}
+
+.portfolio .card .btn-black {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 14px 25px;
+    line-height: 21px;
+    margin-right: 1rem;
+    border-radius: 6px;
+    background:linear-gradient(to bottom ,#000 341px,#1f2937 );
+    box-shadow: 5px 5px 15px #000, -5px -5px 15px #1f2937 ;
+    transition: all 0.6s ease-in-out;
+}
+.portfolio .card .btn-black:hover{
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    color: #000;
+    transition: all 0.6s ease-in-out;
+    transform: translateY(-5px);
 }

@@ -2,6 +2,9 @@
 .ff-junaid{
     font-family: 'Great Vibes';  
 }
+nav{
+    z-index: 999;
+}
 nav .text-gray{
     color: rgb(120, 118, 118) !important;
     transition: 0.4s ease-in-out;
