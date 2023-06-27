@@ -1,28 +1,28 @@
 import React from 'react'
-import './project.css'
+import './experience.css'
 
-const Project = () => {
+const Experience = () => {
     let cards = [
         {
             id:1,
-            title:"Project 1",
+            title:"Experience 1",
             description:"Some quick example text to build on the card title and make.",
             demo:"./github.io",
             link:"google.com"
         },
         {
             id:2,
-            title:"Project 2",
+            title:"Experience 2",
             description:"Some quick example text to build on the card title and make.",
             demo:"./github.io",
             link:"google.com"
         }
     ]
     return (
-        <div className='bg-dark-b-gradient text-white h-84vh '>
+        <div className='bg-gradient-gaytoblack text-white h-84vh '>
             <div className="container ">
                 <div className='fs-1 fw-bold'>
-                    Project
+                    Experience
                 </div>
                 <div className=" row">
 
@@ -32,14 +32,6 @@ const Project = () => {
                     <div key={id} className="card col-md-6 col-lg-4 p-2 rounded-2 bg-gradient-gaytoblack m-2 ms-lg-0" >
                         <div className="img-container rounded-3 ">
                         <div className="img"></div>
-                        </div>
-                        <div className="card-body text-white">
-                            <h5 className="card-title fs-4 ">Card title</h5>
-                            <p className="card-text fs-6 fw-normal">Some quick example text to build on the card title and make.</p>
-                           <div className="d-flex ">
-                            <a href="#" className="btn btn-black">Demo</a>
-                            <a href="#" className="btn btn-black ms-3">Code</a>
-                           </div>
                         </div>
                     </div>
             ))}
@@ -53,4 +45,4 @@ const Project = () => {
     )
 }
 
-export default Project
+export default Experience

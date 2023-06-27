@@ -5,6 +5,7 @@ import SocialMedia from './component/SocialMedia';
 import About from './component/About';
 import './App.css';
 import Project from './component/Project';
+import Experience from './component/Experience';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <SocialMedia />
       <About />
       <Project />
+      <Experience />
+
     </div>
   );
 }
