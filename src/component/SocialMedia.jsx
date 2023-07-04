@@ -56,7 +56,7 @@ const SocialMedia = () => {
     },
   ]
   return (
-    <div className='position-absolute top-50 '>
+    <div className='position-fixed d-none d-md-block top-50 '>
       {
         links.map(({id,child,href,style,download})=>{
           return(

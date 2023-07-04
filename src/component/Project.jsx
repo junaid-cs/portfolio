@@ -19,7 +19,7 @@ const Project = () => {
         }
     ]
     return (
-        <div className='bg-dark-b-gradient text-white h-84vh '>
+        <div className='bg-dark-b-gradient text-white h-84vh pb-5'>
             <div className="container ">
                 <div className='fs-1 fw-bold'>
                     Project
