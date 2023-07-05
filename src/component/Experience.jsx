@@ -42,10 +42,10 @@ const Experience = () => {
                 </div>
                 <div className="row">
 
-                <div className="d-flex portfolio mt-3 mx-5 gap-4  flex-wrap">
+                <div className="d-flex justify-content-center justify-content-lg-start mx-lg-5 portfolio mt-3 mx-lg-5 gap-4  flex-wrap">
                 {cards.map(({id,title,src,style}) =>(
         
-                    <div key={id} className={`icon-card col-md-6 col-lg-3 p-2 rounded-2 bg-gradient-gaytoblack m-4 ms-lg-0 ${style}`}  >
+                    <div key={id} className={`icon-card col-12 col-md-5 col-lg-3 p-2 rounded-2 bg-gradient-gaytoblack my-4 mx-lg-4 ms-lg-0 ${style}`}  >
                         <div className="icon-container rounded-3 ">
                             <div className="icon-img-conteiner w-25 mx-auto d-flex flex-column  align-items-center">
                         <img src={src} className='img-fluid' alt="" srcset="" />

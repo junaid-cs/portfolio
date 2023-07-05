@@ -13,7 +13,7 @@ const About = () => {
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae vel nostrum placeat repellendus. Sed in iste commodi harum soluta, nam corrupti rem? Hic debitis numquam animi odio in laborum molestias?
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae vel nostrum placeat repellendus. Sed in iste commodi harum soluta, nam corrupti rem? Hic debitis numquam animi odio in laborum molestias?
       </p>
-      <p className='text-gary text-justify mt-3'>
+      <p className='text-gary text-justify mt-3 mb-0'>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae vel nostrum placeat repellendus. Sed in iste commodi harum soluta, nam corrupti rem? Hic debitis numquam animi odio in laborum molestias?
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae vel nostrum placeat repellendus. Sed in iste commodi harum soluta, nam corrupti rem? Hic debitis numquam animi odio in laborum molestias?
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae vel nostrum placeat repellendus. Sed in iste commodi harum soluta, nam corrupti rem? Hic debitis numquam animi odio in laborum molestias?

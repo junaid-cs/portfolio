@@ -48,9 +48,12 @@ p{
     transition: all 0.6s ease-in-out;
     transform: translateY(-5px);
 }
-.portfolio .col-lg-4{
-    width: 32.5% !important;
-}
 .portfolio .card:nth-child(2)  .img{
     background-image: url('../../public/images/two.png');
+}
+@media screen and (min-width:992px ) {
+    
+    .portfolio .col-lg-4{
+        width: 32.5% !important;
+    }
 }

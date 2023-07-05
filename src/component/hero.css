@@ -22,3 +22,8 @@
 .btn-gradient:hover>.hero-arrow{
     transform: translate(2px, 2px) rotate(90deg);
 }
+@media screen and(max-width:575px) {
+    .fs-4rem{
+        font-size: 3rem !important;
+    }
+}

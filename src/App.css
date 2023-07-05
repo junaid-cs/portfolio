@@ -1,8 +1,11 @@
+*{
+    /* outline: 1px solid red; */
+}
 .bg-dark{
     background-color: black !important;
 }
 .h-100vh{
-    height: 100vh;
+    min-height: 100vh;
 }
 .fs-4rem{
     font-size: 4.5rem;

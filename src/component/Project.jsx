@@ -26,10 +26,10 @@ const Project = () => {
                 </div>
                 <div className=" row">
 
-                <div className="d-flex portfolio mt-3  flex-wrap">
+                <div className="d-flex portfolio mt-3 justify-content-md-center justify-content-lg-start  flex-wrap">
                 {cards.map(({id,title}) =>(
         
-                    <div key={id} className="card col-md-6 col-lg-4 p-2 rounded-2 bg-gradient-gaytoblack m-2 ms-lg-0" >
+                    <div key={id} className="card col-md-5 col-lg-4 p-2 rounded-2 bg-gradient-gaytoblack m-2 ms-lg-0" >
                         <div className="img-container rounded-3 ">
                         <div className="img"></div>
                         </div>
