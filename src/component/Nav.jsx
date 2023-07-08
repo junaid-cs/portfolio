@@ -10,7 +10,7 @@ const Nav = () => {
         },
         {
             id:2,
-            link:"about us"
+            link:"about"
         },
         {
             id:3,
@@ -22,7 +22,7 @@ const Nav = () => {
         },
         {
             id:5,
-            link:"contact us"
+            link:"contact"
         },
     ];
     const [toggler,setToggler]=useState(false);
@@ -35,7 +35,7 @@ const Nav = () => {
       <ul className="navbar-nav me-5 mb-2 mb-lg-0">
             {links.map(({id,link}) =>(
         <li key={id} className="nav-item mx-2 ">
-                <a  className="nav-link active text-capitalize text-gray" aria-current="page" href="#">{link}</a>
+                <a  className="nav-link active text-capitalize text-gray" aria-current="page" href={`#${link}`}>{link}</a>
                
         </li>
             ))}
@@ -50,7 +50,7 @@ const Nav = () => {
      <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-center">
             {links.map(({id,link}) =>(
         <li key={id} className="nav-item">
-                <a  className="nav-link active text-capitalize text-gray" aria-current="page" href="#">{link}</a>
+                <a  className="nav-link active text-capitalize text-gray" aria-current="page" href={`#${link}`}>{link}</a>
                
         </li>
             ))}

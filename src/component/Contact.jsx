@@ -7,7 +7,7 @@ const Contact = () => {
                 <div className='fs-1 fw-bold'>
                     Contact
                 </div>
-                <div className=" row justify-content-center text-center">
+                <div id='contact' className=" row justify-content-center text-center">
                     <div className="col-md-6 mt-5">
                         <form className=''>
                             <div class="form-floating mb-3">

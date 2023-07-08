@@ -27,15 +27,33 @@ const Experience = () => {
             src:"./experience/react.png",
             style:"react-card"
         },
+        // {
+        //     id:5,
+        //     title:"PHP",
+        //     src:"./experience/php.png",
+        //     style:"php-card"
+        // },
         {
-            id:5,
+            id:6,
+            title:"Sql",
+            src:"./experience/sql.png",
+            style:"react-card"
+        },
+        {
+            id:7,
             title:"GitHub",
             src:"./experience/github.png",
             style:"github-card"
+        },
+        {
+            id:8,
+            title:"Git",
+            src:"./experience/git.png",
+            style:"html-card"
         }
     ]
     return (
-        <div className='bg-gradient-gaytoblack experience text-white h-84v pt-5 '>
+        <div id='skill' className='bg-gradient-gaytoblack experience text-white h-84v pt-5 '>
             <div className="container ">
                 <div className='fs-1 fw-bold'>
                     Experience
