@@ -8,7 +8,7 @@ const Hero = () => {
        <div className='d-flex  row text-light h-100vh justify-content-around px-sm-5 mx-sm-5 mx-3 me-md-0 mt-3 mt-md-auto pe-md-0 overflow-hidden align-items-center'>
             <div className='left text-center text-sm-start col-12 col-md-6'>
                 <h1 className='fs-4rem text-center text-sm-start'>
-                   I am a Frontend Develeoper
+                   I am a Frontend Develeope
                   </h1>
                   <p className='text-gary mt-3'>
                   What drives me as a frontend developer is the ability to combine my creativity and technical skills to craft seamless user interfaces.                  </p>
