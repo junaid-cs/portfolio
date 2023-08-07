@@ -49,24 +49,27 @@ p{
     transform: translateY(-5px);
 }
 .portfolio .card:nth-child(1)  .img{
-    background-image: url('../../public/images/one.png');
+    background-image: url('../../public/images/7.png');
 }
 .portfolio .card:nth-child(2)  .img{
-    background-image: url('../../public/images/two.png');
+    background-image: url('../../public/images/8.png');
 }
 .portfolio .card:nth-child(3)  .img{
-    background-image: url('../../public/images/three.png');
+    background-image: url('../../public/images/two.png');
 }
 .portfolio .card:nth-child(4)  .img{
-    background-image: url('../../public/images/four.png');
+    background-image: url('../../public/images/three.png');
 }
 .portfolio .card:nth-child(5)  .img{
-    background-image: url('../../public/images/five.png');
+    background-image: url('../../public/images/one.png');
 }
 .portfolio .card:nth-child(6)  .img{
-    background-image: url('../../public/images/six.png');
+    background-image: url('../../public/images/five.png');
 }
 .portfolio .card:nth-child(7)  .img{
+    background-image: url('../../public/images/six.png');
+}
+.portfolio .card:nth-child(8)  .img{
     background-image: url('../../public/images/7.png');
 }
 @media screen and (min-width:992px ) {

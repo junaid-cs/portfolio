@@ -5,9 +5,16 @@ const Project = () => {
     let cards = [
         {
             id:1,
-            title:"Coffe Shop",
-            description:"Making design using Html css and javascript",
-            demo:"https://cofee-shop-1.netlify.app/",
+            title:"Pizza hut",
+            description:"Built React app utilizing Context API, useEffect, and useState hooks.",
+            demo:"https://pizzza-hut.netlify.app/",
+            link:"#"
+        },
+        {
+            id:8,
+            title:"Ecommerce App",
+            description:"Built React app utilizing Strapi Rest API, Redux toolkit, Axios ,useEffect and useState hooks.",
+            demo:"#",
             link:"#"
         },
         {
@@ -25,10 +32,10 @@ const Project = () => {
             link:"#"
         },
         {
-            id:4,
-            title:"Bus Travel",
-            description:"Designed responsive bus travel template utilizing Bootstrap for enhanced user experience.",
-            demo:"https://jay-travel.netlify.app",
+            id:7,
+            title:"Coffe Shop",
+            description:"Making design using Html css and javascript",
+            demo:"https://cofee-shop-1.netlify.app/",
             link:"#"
         },
         {
@@ -40,18 +47,12 @@ const Project = () => {
         },
         {
             id:6,
-            title:"Money heist",
-            description:"Making simple static templet using bootstrap",
-            demo:".https://moneyheist-1.netlify.app/",
-            link:"#"
-        },
-        {
-            id:7,
-            title:"Pizza hut",
-            description:"Built React app utilizing Context API, useEffect, and useState hooks.",
-            demo:"https://pizzza-hut.netlify.app/",
+            title:"Filter Images",
+            description:"Making Filtering image project using Framer motion library",
+            demo:"https://animated-cards-api.netlify.app",
             link:"#"
         }
+       
     ]
     return (
         <div id='project' className='bg-dark-b-gradient text-white h-84vh pb-5'>
